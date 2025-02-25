@@ -25,6 +25,8 @@ class TestCalculator:
         assert calculator.multiply(3, 5) == 15
         assert calculator.multiply(-2, 3) == -6
         assert calculator.multiply(0, 5) == 0
+        print(">> Multiplying ")
+        assert calculator.multiply(1,2) == 1
     
     def test_divide(self, calculator):
         assert calculator.divide(6, 2) == 3
